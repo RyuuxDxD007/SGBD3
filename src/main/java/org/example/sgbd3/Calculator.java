@@ -68,7 +68,6 @@ public class Calculator extends Application {
                 }
                 message = message + '0';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -84,7 +83,6 @@ public class Calculator extends Application {
                 }
                 message = message + '1';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -100,7 +98,6 @@ public class Calculator extends Application {
                 }
                 message = message + '2';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -116,7 +113,6 @@ public class Calculator extends Application {
                 }
                 message = message + '3';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -132,7 +128,6 @@ public class Calculator extends Application {
                 }
                 message = message + '4';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -148,7 +143,6 @@ public class Calculator extends Application {
                 }
                 message = message + '5';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -164,7 +158,6 @@ public class Calculator extends Application {
                 }
                 message = message + '6';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -180,7 +173,6 @@ public class Calculator extends Application {
                 }
                 message = message + '7';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -196,7 +188,6 @@ public class Calculator extends Application {
                 }
                 message = message + '8';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -212,7 +203,6 @@ public class Calculator extends Application {
                 }
                 message = message + '9';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -230,7 +220,6 @@ public class Calculator extends Application {
                     action = 'x';
                     message = message + " X ";
                     messageDisplay.setText(message);
-                    System.out.println(message);
                     first=true;
                 }
             }
@@ -250,7 +239,6 @@ public class Calculator extends Application {
                     action = 'd';
                     message = message + " / ";
                     messageDisplay.setText(message);
-                    System.out.println(message);
                     first=true;
                 }
             }
@@ -270,7 +258,6 @@ public class Calculator extends Application {
                     action = 'a';
                     message = message + " + ";
                     messageDisplay.setText(message);
-                    System.out.println(message);
                     first=true;
                 }
             }
@@ -290,7 +277,6 @@ public class Calculator extends Application {
                     action = 's';
                     message = message + " - ";
                     messageDisplay.setText(message);
-                    System.out.println(message);
                     first=true;
                 }
             }
@@ -308,7 +294,6 @@ public class Calculator extends Application {
                 }
                 message = message + '.';
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
@@ -321,7 +306,6 @@ public class Calculator extends Application {
                 num2 = Double.parseDouble(message);
                 computeAnswer();
                 messageDisplay.setText(message);
-                System.out.println(message);
                 first=true;
             }
         });
@@ -337,7 +321,6 @@ public class Calculator extends Application {
                 }
                 message = message.substring(0, message.length()-1);
                 messageDisplay.setText(message);
-                System.out.println(message);
             }
         });
         return button;
